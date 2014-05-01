@@ -8,6 +8,9 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
+" == Add GLSL support == "
+au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl 
+
 " ================ General Config ====================
 
 set number                      "Line numbers are good
