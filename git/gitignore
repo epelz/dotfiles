@@ -43,3 +43,16 @@ Session.vim
 # SASS
 # ----------------------------------------------------------------------------------------------
 .sass-cache
+
+# JetBrains taken from: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+# ----------------------------------------------------------------------------------------------
+*.iml
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
