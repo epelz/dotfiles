@@ -9,6 +9,11 @@ bindkey '^r' history-incremental-search-backward    # [Ctrl-r] - Search backward
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
+# Make numpad enter work
+bindkey -s "^[Op" "0"
+bindkey -s "^[Ol" "."
+bindkey -s "^[OM" "^M"
+
 # Insert sudo at the beginning of a line
 insert_sudo () { zle beginning-of-line; zle -U "sudo " }
 zle -N insert_sudo insert_sudo
